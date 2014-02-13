@@ -194,18 +194,20 @@ let g:Powerline_symbols="fancy" " Fancy styling
 " Startify
 let g:startify_list_order = ['bookmarks', 'files', 'sessions']
 let g:startify_bookmarks = [
-    \ '~/code/go/src/github.com/mitchellh/packer',
-    \ '~/code/hashicorp/vagrant',
-    \ '~/code/go/src/bitbucket.org/hashicorp/polaris',
-    \ '~/code/go/src/bitbucket.org/hashicorp/ps-build-manager',
+    \ '~/src/IGPP/puppet_environments',
+    \ '~/src/IGPP/antelope_contrib',
+    \ '~/src/IGPP/anfsrc',
+    \ '~/src/IGPP/antelope_build',
     \ ]
 let g:startify_custom_header = [
-    \ '                _ _       _          _ _ _     ',
-    \ '               (_) |     | |        | | | |    ',
-    \ '      _ __ ___  _| |_ ___| |__   ___| | | |__  ',
-    \ '     | ''_ ` _ \| | __/ __| ''_ \ / _ \ | | ''_ \ ',
-    \ '     | | | | | | | || (__| | | |  __/ | | | | |',
-    \ '     |_| |_| |_|_|\__\___|_| |_|\___|_|_|_| |_|',
+    \ '                    __  __    _             _     ',
+    \ '                   / _|/ _|  | |           (_)    ',
+    \ '   __ _  ___  ___ | |_| |_ __| | __ ___   ___ ___ ',
+    \ '  / _` |/ _ \/ _ \|  _|  _/ _` |/ _` \ \ / / / __|',
+    \ ' | (_| |  __/ (_) | | | || (_| | (_| |\ V /| \__ \',
+    \ '  \__, |\___|\___/|_| |_| \__,_|\__,_| \_/ |_|___/',
+    \ '   __/ |                                          ',
+    \ '  |___/                                           ',
     \ '',
     \ '  ======================================================',
     \ '',
