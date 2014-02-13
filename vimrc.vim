@@ -41,10 +41,12 @@ syntax on                 " Enable filetype detection by syntax
 " Backup settings
 execute "set directory=" . g:vim_home_path . "/swap"
 execute "set backupdir=" . g:vim_home_path . "/backup"
-execute "set undodir=" . g:vim_home_path . "/undo"
-set backup
-set undofile
-set writebackup
+if exists('+undodir')
+    execute "set undodir=" . g:vim_home_path . "/undo"
+    set backup
+    set undofile
+    set writebackup
+endif
 
 
 " Search settings
