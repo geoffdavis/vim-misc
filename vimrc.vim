@@ -23,7 +23,10 @@ else
     set number
 endif
 set ruler                 " Show the line number and column in the status bar
-set t_Co=256              " Use 256 colors
+" Conditionally set up term color support
+if $TERM =='xterm-256color' || $TERM == 'screen-256color' || $COLORTERM == 'gnome-terminal'
+    set t_Co=256          " Use 256 colors
+endif
 set scrolloff=999         " Keep the cursor centered in the screen
 set showmatch             " Highlight matching braces
 set showmode              " Show the current mode on the open buffer
