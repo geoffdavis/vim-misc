@@ -74,7 +74,7 @@ set wildignore+=*.swp         " Ignore vim backups
 
 " GUI settings
 if has("gui_running")
-    colorscheme molokai
+    colorscheme solarized
     set guioptions=cegmt
 
     if has("win32")
